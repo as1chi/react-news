@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-import Image from "../image/image"
+import Image from "../img/image"
 import { formatTimeAgo } from "../../../helpers/formatTimeAgo"
 
 const NewsBanner = ({item}) =>{
