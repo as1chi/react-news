@@ -1,6 +1,6 @@
 export const formatTimeAgo = (dateString) =>{
-    const now = new Date(dateString);
-    const date = new Date()
+    const now = new Date();
+    const date = new Date(dateString)
     const secondPast = ((now.getTime() - date.getTime())/ 1000)
 
     if (secondPast < 60){
